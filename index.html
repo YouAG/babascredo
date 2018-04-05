@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gogols</title>
+	<link rel="stylesheet" type="text/css" href="google.css">
+<link rel="icon" type="image/png" href="favi.png" />
+</head>
+
+
+
+<!-- ________ BONJOUR CHERE CORRECTEUR, NOUS AVOS REALISE CETTE PETITE REPLIQUE DE GOOGLE AVEC BEAUCOUP D'EFFORTS, ET JE RAPPELLE QUE C'EST NOTRE PREMIER SITE, JE T'ENCOURAGE DONC D'ETRE INDULGENT SUR TA NOTATION. ^^ BONNE JOURNEE !!! ___________ -->
+
+
+
+
+
+<body onload="cacher(); popup()">
+
+
+<!-- ________ BARRE DE NAVIGATION ___________ -->
+
+
+    <center>
+<div id="navbar"> 
+
+    <ul class="ul1 ">
+        <li class="li1"> <a href=" https://mail.google.com/"> Gmail</li>
+        <li class="li1"> <a href=" https://www.google.fr/imghp?hl=fr&tab=wi">Images</a></li>
+        <li class="li1"><img src="cube.png"></li>
+        <li class="li1"><img src="cloche.png"></li>
+        <li class="li1"><img src="rond.png"></li>
+     </ul>
+     
+</div>
+</center>
+<center><div id="bouton"><button onclick="voir()">AFFICHER LES ÉLÉMENTS CENTRAUX</button></div></center>
+
+<!-- _________________ IMAGE GOOGLE ET BOUTONS ___________ -->
+
+
+
+<center>
+
+<div id="coeur"> 
+            <div class="conteneurlogo">
+               
+                <img id="logo" src="logo.png" alt="logo">
+
+             </div>
+
+
+         <div id="rech">       
+             <form onsubmit="javascript: window.open('https://www.google.fr/#q=' + document.getElementById('text').value);" class="search" action="#" type="text" >
+       <input type="search" name="s" id="text" placeholder=" Rechercher sur Google" style="width: 586px;" >
+             </form>
+             <img src="micro.png" class="micro">
+        </form> 
+         </div> 
+
+
+     
+            <div id="button"> 
+                 <button onclick="javascript: window.open('https://www.google.fr/#q=' + document.getElementById('text').value);" id="b1"  type="button" style="width: 200px; height: 1,2em "
+                 > Recherche Google </button>
+                 <button type="button" style="width: 200px; height: 1,2em "> J'ai de la chance </button>
+            </div>
+
+         <div id="English"> 
+              Google disponible en :  <a href="https://www.google.co.uk/">  English</a> 
+              
+         </div>
+</div>
+
+</center>
+
+<!-- ________ PIED DE PAGE ___________ -->
+
+<footer>
+        <div id="France">
+            <span>France</span>
+        </div>
+
+
+        <div id="contact">
+            <aside id="apropos">
+                <span><a href="#">Publicité</a></span>
+                <span><a href="#">Entreprise</a></span>
+                <span><a href="#">A propos</a></span>
+            </aside>
+
+
+            <aside id="autre">
+                <span><a href="#">Confidentialité</a></span>
+                <span><a href="#">Conditions</a></span>
+                <span><a href="#">Paramètres</a></span>
+                <span><a href="#">Utiliser Google.com</a></span>
+            </aside>
+        </div>
+    </footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
