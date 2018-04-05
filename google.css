@@ -30,32 +30,27 @@ li:hover{
 /* _______________ LOGO ___________________ */
 
 
-
 #logo
 {
 width: 300px;
 }
 
 .micro {
-    position: absolute;
-    left: 980px;
-    margin-top: 8px;
+       position: relative;
+    left: -32px;
+    bottom: -5px;
+    display: flex;
+    height: 30px;
+    width: 35px;
 }
 
 
-.conteneurlogo
+.ellogo
 {
-	width: 22%;
-	margin: auto;
-	margin-top: 224px;
+	height: 213px;
+    margin-top: 45px;
 }
 
-#bouton{
-display: flex;
-justify-content: center;
-align-content: center;
-
-}
 
 .search {
 border: solid 1px #eee;
@@ -63,52 +58,81 @@ border: solid 1px #eee;
    height: 35px;
 	vertical-align: top;
 	width: 582px;
-	border:0px;
+	outline: none;
 }
 
 #text {
 
-	height: 53px;
+	    width: 578px;
+    height: 33px;
+    outline: none;
+    border: 0;
 }
 
 #rech
 {
 display: flex;
-justify-content: center;"
+justify-content: center;
+outline: none;"
 	;
 }
 
 
 /* _______________ BOUTONS ___________________ */
 
-
-#button {
-font-family:arial,sans-serif;
-height:70px ;
-display: flex;
-align-items: center;
-justify-content: center;
-
-}
-
-
-#bouton {
-
-    width: 500px;
-    height: 200px;
+#pano{
+	color: black
+  width: 340px;
+    height: 140px;
     margin-right: 20px;
     border-radius: 5px;
     font-size: medium;
-    color: grey;
+    color: gray;
+    margin-top: 250px;
 }
 
-button{
-    width: 200px;
-    height: 40px;
-    margin-right: 20px;
-    border-radius: 5px;
-    font-size: x-small;
-    color: grey;
+center {
+	width: 100%;
+	height: 40px;
+	padding-top:25px; 
+}
+
+
+center input {}
+
+center input:hover{
+	border: 2px solid #e4e4e4;
+	color:black;}
+
+#b1{
+
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    border: 1px solid #f2f2f2;
+    color: rgba(0,0,0,0.8);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 27px;
+    text-align: center;
+    margin-right: 5px;
+
+}
+
+#b2{
+background-color: #f2f2f2;
+    border-radius: 2px;
+    border: 1px solid #f2f2f2;
+    color: rgba(0,0,0,0.8);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 27px;
+    text-align: center;
+    margin-right: 5px;
+
 }
 
 button:hover

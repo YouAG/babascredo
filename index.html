@@ -31,9 +31,9 @@
         <li class="li1"><img src="rond.png"></li>
      </ul>
      
-</div>
+</div class="pano">
 </center>
-<center><div id="bouton"><button onclick="voir()">AFFICHER LES ÉLÉMENTS CENTRAUX</button></div></center>
+<center><div><button onclick="voir()" ; id="pano" >AFFICHER LES ÉLÉMENTS CENTRAUX</button></div></center>
 
 <!-- _________________ IMAGE GOOGLE ET BOUTONS ___________ -->
 
@@ -42,28 +42,24 @@
 <center>
 
 <div id="coeur"> 
-            <div class="conteneurlogo">
-               
-                <img id="logo" src="logo.png" alt="logo">
-
-             </div>
+           <section class="ellogo">
+            <img src="https://i.giphy.com/media/LO6fnkLL2se6Q/giphy.webp">
+        </section>
 
 
          <div id="rech">       
              <form onsubmit="javascript: window.open('https://www.google.fr/#q=' + document.getElementById('text').value);" class="search" action="#" type="text" >
-       <input type="search" name="s" id="text" placeholder=" Rechercher sur Google" style="width: 586px;" >
+       <input type="search" name="s" id="text" placeholder=" Rechercher sur Google" style="width: 586px;"  >
              </form>
              <img src="micro.png" class="micro">
         </form> 
          </div> 
-
-
      
-            <div id="button"> 
+            <center id="bouton">
                  <button onclick="javascript: window.open('https://www.google.fr/#q=' + document.getElementById('text').value);" id="b1"  type="button" style="width: 200px; height: 1,2em "
                  > Recherche Google </button>
-                 <button type="button" style="width: 200px; height: 1,2em "> J'ai de la chance </button>
-            </div>
+                 <button type="button" id="b2" style="width: 200px; height: 1,2em "> J'ai de la chance </button>
+            </center>
 
          <div id="English"> 
               Google disponible en :  <a href="https://www.google.co.uk/">  English</a> 

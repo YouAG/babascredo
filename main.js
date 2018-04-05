@@ -5,8 +5,8 @@ function cacher(){
 
 function voir(){
 		document.getElementById("coeur").style.display = "block";
-		document.getElementById("bouton").style.display = "none";}
+		document.getElementById("pano").style.display = "none";}
 
 function popup(){
-setTimeout(function(){alert("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please")}, 10000);
+setTimeout(function(){alert("Achete du NUTELLA C'est bien !!")},10000);
 }
